@@ -9,7 +9,7 @@ const Header = () => {
                 <Link href="/">
                     <Image src={logo} alt="Logo" width={128} height={128} />
                 </Link>
-                <div className="relative flex w-full max-w-xl">
+                <div className="relative hidden w-full max-w-xl md:flex">
                     <span className="absolute text-lg text-gray-400 left-4 top-3">
                         <i className="fa-solid fa-magnifying-glass" />
                     </span>
@@ -17,13 +17,14 @@ const Header = () => {
                         type="text"
                         name="search"
                         id="search"
-                        className="w-full py-3 pl-12 pr-3 border border-r-0 border-primary rounded-l-md focus:outline-none"
+                        className="hidden w-full py-3 pl-12 pr-3 border border-r-0 border-primary rounded-l-md md:flex focus:outline-none"
                         placeholder="search"
                     />
-                    <button className="px-8 text-white transition border bg-primary border-primary rounded-r-md hover:bg-transparent hover:text-primary">
+                    <button className="items-center hidden px-8 text-white transition border bg-primary border-primary rounded-r-md hover:bg-transparent hover:text-primary md:flex">
                         Search
                     </button>
                 </div>
+
 
                 <div className="flex items-center space-x-4">
 

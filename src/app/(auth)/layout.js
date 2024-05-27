@@ -1,6 +1,6 @@
 import { Poppins, Roboto } from "next/font/google";
 import "../globals.css";
-import "@fortawesome/fontawesome-free/css/all.min.css"
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import Header from "@/components/layouts/Header";
 import Navbar from "@/components/layouts/Navbar";
 

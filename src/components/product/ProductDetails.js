@@ -1,39 +1,45 @@
+import Image from 'next/image'
 import React from 'react'
-
+import product1 from "/public/images/products/product1.jpg"
+import product2 from "/public/images/products/product2.jpg"
+import product3 from "/public/images/products/product3.jpg"
+import product4 from "/public/images/products/product4.jpg"
+import product5 from "/public/images/products/product5.jpg"
+import product6 from "/public/images/products/product6.jpg"
 const ProductDetails = () => {
     return (
         <>
             <div className="container grid grid-cols-2 gap-6">
                 <div>
-                    <img
-                        src="../assets/images/products/product1.jpg"
-                        alt="product"
+                    <Image
+                        src={product1}
+                        alt="product1"
                         className="w-full"
                     />
                     <div className="grid grid-cols-5 gap-4 mt-4">
-                        <img
-                            src="../assets/images/products/product2.jpg"
+                        <Image
+                            src={product2}
                             alt="product2"
                             className="w-full border cursor-pointer border-primary"
                         />
-                        <img
-                            src="../assets/images/products/product3.jpg"
-                            alt="product2"
+                        <Image
+                            src={product3}
+                            alt="product3"
                             className="w-full border cursor-pointer"
                         />
-                        <img
-                            src="../assets/images/products/product4.jpg"
-                            alt="product2"
+                        <Image
+                            src={product4}
+                            alt="product4"
                             className="w-full border cursor-pointer"
                         />
-                        <img
-                            src="../assets/images/products/product5.jpg"
-                            alt="product2"
+                        <Image
+                            src={product5}
+                            alt="product5"
                             className="w-full border cursor-pointer"
                         />
-                        <img
-                            src="../assets/images/products/product6.jpg"
-                            alt="product2"
+                        <Image
+                            src={product6}
+                            alt="product6"
                             className="w-full border cursor-pointer"
                         />
                     </div>
