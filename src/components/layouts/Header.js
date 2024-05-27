@@ -40,7 +40,7 @@ const Header = () => {
                             8
                         </div>
                     </Link>
-                    <a
+                    <Link
                         href="/cart"
                         className="relative text-center text-gray-700 transition hover:text-primary"
                     >
@@ -51,21 +51,17 @@ const Header = () => {
                         <div className="absolute flex items-center justify-center w-5 h-5 text-xs text-white rounded-full -right-3 -top-1 bg-primary">
                             2
                         </div>
-                    </a>
-                    <a
-                        href="#"
+                    </Link>
+                    <Link
+                        href="/account"
                         className="relative text-center text-gray-700 transition hover:text-primary"
                     >
                         <div className="text-2xl">
                             <i className="fa-regular fa-user" />
                         </div>
                         <div className="text-xs leading-3">Account</div>
-                    </a>
-
-
-
+                    </Link>
                 </div>
-
             </div>
         </header>
 

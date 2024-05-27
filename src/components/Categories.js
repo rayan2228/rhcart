@@ -7,6 +7,7 @@ import category4 from "/public/images/category/category-4.jpg"
 import category5 from "/public/images/category/category-5.jpg"
 import category6 from "/public/images/category/category-6.jpg"
 import Title from './Title'
+import Link from 'next/link'
 const Categories = () => {
     return (
         <div className="container py-16">
@@ -18,12 +19,12 @@ const Categories = () => {
                         alt="category 1"
                         className="w-full"
                     />
-                    <a
-                        href="#"
+                    <Link
+                        href="/shop"
                         className="absolute inset-0 flex items-center justify-center text-xl font-medium text-white transition bg-black bg-opacity-40 font-roboto group-hover:bg-opacity-60"
                     >
                         Bedroom
-                    </a>
+                    </Link>
                 </div>
                 <div className="relative overflow-hidden rounded-sm group">
                     <Image
@@ -31,12 +32,12 @@ const Categories = () => {
                         alt="category 2"
                         className="w-full"
                     />
-                    <a
-                        href="#"
+                    <Link
+                        href="/shop"
                         className="absolute inset-0 flex items-center justify-center text-xl font-medium text-white transition bg-black bg-opacity-40 font-roboto group-hover:bg-opacity-60"
                     >
                         Matrass
-                    </a>
+                    </Link>
                 </div>
                 <div className="relative overflow-hidden rounded-sm group">
                     <Image
@@ -44,12 +45,12 @@ const Categories = () => {
                         alt="category 3"
                         className="w-full"
                     />
-                    <a
-                        href="#"
+                    <Link
+                        href="/shop"
                         className="absolute inset-0 flex items-center justify-center text-xl font-medium text-white transition bg-black bg-opacity-40 font-roboto group-hover:bg-opacity-60"
                     >
                         Outdoor
-                    </a>
+                    </Link>
                 </div>
                 <div className="relative overflow-hidden rounded-sm group">
                     <Image
@@ -57,12 +58,12 @@ const Categories = () => {
                         alt="category 4"
                         className="w-full"
                     />
-                    <a
-                        href="#"
+                    <Link
+                        href="/shop"
                         className="absolute inset-0 flex items-center justify-center text-xl font-medium text-white transition bg-black bg-opacity-40 font-roboto group-hover:bg-opacity-60"
                     >
                         Sofa
-                    </a>
+                    </Link>
                 </div>
                 <div className="relative overflow-hidden rounded-sm group">
                     <Image
@@ -70,12 +71,12 @@ const Categories = () => {
                         alt="category 5"
                         className="w-full"
                     />
-                    <a
-                        href="#"
+                    <Link
+                        href="/shop"
                         className="absolute inset-0 flex items-center justify-center text-xl font-medium text-white transition bg-black bg-opacity-40 font-roboto group-hover:bg-opacity-60"
                     >
                         Living Room
-                    </a>
+                    </Link>
                 </div>
                 <div className="relative overflow-hidden rounded-sm group">
                     <Image
@@ -83,12 +84,12 @@ const Categories = () => {
                         alt="category 6"
                         className="w-full"
                     />
-                    <a
-                        href="#"
+                    <Link
+                        href="/shop"
                         className="absolute inset-0 flex items-center justify-center text-xl font-medium text-white transition bg-black bg-opacity-40 font-roboto group-hover:bg-opacity-60"
                     >
                         Kitchen
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
